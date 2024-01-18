@@ -47,10 +47,10 @@ SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const [loaded, error] = useFonts({
     'Nunito-B': require('../assets/fonts/Nunito-Bold.ttf'),
+    'Nunito-SB': require('../assets/fonts/Nunito-SemiBold.ttf'),
     'Nunito-EL': require('../assets/fonts/Nunito-ExtraLight.ttf'),
     'Nunito-L': require('../assets/fonts/Nunito-Light.ttf'),
     'Nunito-R': require('../assets/fonts/Nunito-Regular.ttf'),
-    'Nunito-SB': require('../assets/fonts/Nunito-SemiBold.ttf'),
   });
 
   // Expo Router uses Error Boundaries to catch errors in the navigation tree.

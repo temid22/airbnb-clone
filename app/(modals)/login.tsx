@@ -39,7 +39,7 @@ const Page = () => {
       console.log('sessionId', createdSessionId);
       if (createdSessionId) {
         setActive!({ session: createdSessionId });
-        router.back();
+        router.push('/(tabs)/');
       }
     } catch (error) {
       console.error('OAuth error:', error);
